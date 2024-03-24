@@ -1,7 +1,8 @@
 body {
     font-family: Roboto, sans-serif;
     background-color: #fff;
-    color: #2e2f42;
+    color: color: #434455;
+
 }
 
 ul {
@@ -17,14 +18,15 @@ a {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.16;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #2e2f42;
+    color: #4d5ae5;
 }
 
 .logo-web {
-    color: #4d5ae5;
+    color: #2e2f42;
+
 }
 
 .header-menu-link {
@@ -38,6 +40,10 @@ a {
 .header-menu-link:hover,
 .header-menu-link:focus {
     color: #404bbf;
+}
+
+.header-adress {
+    font-style: normal
 }
 
 .header-adress-link {
@@ -55,14 +61,13 @@ a {
 
 .first-section {
     background: #2e2f42;
-    width: 1440px;
-    height: 600px;
+
 }
 
 .first-section-title {
     font-weight: 700;
     font-size: 56px;
-    line-height: 1.07143;
+    line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;
@@ -83,7 +88,7 @@ a {
     background: #404bbf;
 }
 
-.second-section-title {
+.second-list-item-title {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -99,10 +104,7 @@ a {
     color: #434455;
 }
 
-.second-list-item {
-    width: 264px;
-    height: 104px;
-}
+
 
 .third-section {
     background: #f4f4fd;
@@ -111,10 +113,11 @@ a {
 .third-section-title {
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.11111;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
+    text-transform: capitalize;
 }
 
 .third-list-title {
@@ -124,6 +127,10 @@ a {
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
+}
+
+.third-list-item {
+    background: #fff;
 }
 
 .third-list-text {
@@ -138,10 +145,11 @@ a {
 .fourth-section-title {
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.11111;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
+    text-transform: capitalize;
 }
 
 .fourth-list-title {
@@ -162,8 +170,7 @@ a {
 
 .footer {
     background: #2e2f42;
-    width: 1440px;
-    height: 312px;
+
 }
 
 .footer-logo {
@@ -171,15 +178,16 @@ a {
     font-weight: 700;
     font-size: 18px;
     line-height: 21px;
-    line-height: 1.16;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #f4f4fd;
+    color: #4d5ae5;
+
 }
 
 .footer-logo-web {
     font-family: "Raleway", sans-serif;
-    color: #4d5ae5;
+    color: #f4f4fd;
 }
 
 .footer-text {
